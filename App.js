@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text> This is app is for Robo Cat ball version 5 </Text>
+      <Text> This is app is for roboCatBall version 5 </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,3 +18,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+#hello message right here
