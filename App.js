@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import MainScreen from './screens/MainScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text> This app is for the roboCatBall game version 5 </Text>
-      <StatusBar style="auto" />
+      <MainScreen />
     </View>
   );
 }
