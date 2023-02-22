@@ -1,10 +1,10 @@
 import { StyleSheet, View } from 'react-native';
-import MainScreen from './screens/MainScreen';
+import Main from './screens/MainScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <MainScreen />
+      <Main />
     </View>
   );
 }
